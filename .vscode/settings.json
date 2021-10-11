@@ -1,9 +1,7 @@
 {
   "debug.openExplorerOnEnd": true,
   "editor.tabSize": 2,
-  "editor.rulers": [
-    90
-  ],
+  "editor.rulers": [90],
   "editor.autoIndent": "full",
   "editor.cursorBlinking": "solid",
   "editor.formatOnType": false,
@@ -23,9 +21,9 @@
   "files.autoSave": "onFocusChange",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "npm.enableScriptExplorer": true,
+  // "npm.enableScriptExplorer": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.iconTheme": "material-icon-theme",
   "auto-close-tag.SublimeText3Mode": true,
   "html.autoClosingTags": false,
   "gitlens.menus": {
