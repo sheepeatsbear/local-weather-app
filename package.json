@@ -66,12 +66,5 @@
     "tslint-etc": "^1.13.10",
     "tslint-plugin-prettier": "^2.3.0",
     "typescript": "~4.3.5"
-  },
-  "importSort": {
-    ".ts, .tsx": {
-      "parser": "typescript",
-      "style": "module",
-      "options": {}
-    }
   }
 }
