@@ -10,7 +10,7 @@
     "no-unused-declaration": true,
     "max-line-length": [true, 90],
     "quotemark": [true, "single", "avoid-escape"],
-    "semicolon": [true, "never"],
+    "semicolon": [true, "always"],
     "no-console": false
   }
 }
