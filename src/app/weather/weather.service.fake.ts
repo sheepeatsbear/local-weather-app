@@ -1,6 +1,8 @@
 import { Observable, of } from 'rxjs';
-import { IWeatherService } from './weather.service';
+
 import { ICurrentWeather } from '../interfaces';
+import { IWeatherService } from './weather.service';
+
 export const fakeWeather: ICurrentWeather = {
   city: 'Bethesda',
   country: 'US',
