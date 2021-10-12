@@ -1499,10 +1499,17 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/jasmine@~3.8.0":
+"@types/jasmine@*", "@types/jasmine@~3.8.0":
   "integrity" "sha512-u5h7dqzy2XpXTzhOzSNQUQpKGFvROF8ElNX9P/TJvsHnTg/JvsAseVsGWQAQQldqanYaM+5kwxW909BBFAUYsg=="
   "resolved" "https://registry.npmjs.org/@types/jasmine/-/jasmine-3.8.2.tgz"
   "version" "3.8.2"
+
+"@types/jasminewd2@~2.0.10":
+  "integrity" "sha512-J7mDz7ovjwjc+Y9rR9rY53hFWKATcIkrr9DwQWmOas4/pnIPJTXawnzjwpHm3RSxz/e3ZVUvQ7cRbd5UQLo10g=="
+  "resolved" "https://registry.npmjs.org/@types/jasminewd2/-/jasminewd2-2.0.10.tgz"
+  "version" "2.0.10"
+  dependencies:
+    "@types/jasmine" "*"
 
 "@types/json-schema@*", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.8":
   "integrity" "sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ=="
@@ -1923,7 +1930,7 @@
   dependencies:
     "type-fest" "^0.21.3"
 
-"ansi-html@^0.0.7", "ansi-html@0.0.7":
+"ansi-html@0.0.7":
   "integrity" "sha1-gTWEAhliqenm/QOflA0S9WynhZ4="
   "resolved" "https://registry.npmjs.org/ansi-html/-/ansi-html-0.0.7.tgz"
   "version" "0.0.7"
@@ -1947,11 +1954,6 @@
   "integrity" "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
   "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
   "version" "5.0.1"
-
-"ansi-regex@^6.0.1":
-  "integrity" "sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA=="
-  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
-  "version" "6.0.1"
 
 "ansi-styles@^2.2.1":
   "integrity" "sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4="
@@ -5549,11 +5551,6 @@
   dependencies:
     "isobject" "^3.0.1"
 
-"is-primitive@^3.0.1":
-  "integrity" "sha512-GljRxhWvlCNRfZyORiH77FwdFwGcMO620o37EOYC0ORWdq+WYNVqW0w2Juzew4M+L81l6/QS3t5gkkihyRqv9w=="
-  "resolved" "https://registry.npmjs.org/is-primitive/-/is-primitive-3.0.1.tgz"
-  "version" "3.0.1"
-
 "is-regex@^1.0.4", "is-regex@^1.1.4":
   "integrity" "sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg=="
   "resolved" "https://registry.npmjs.org/is-regex/-/is-regex-1.1.4.tgz"
@@ -5745,7 +5742,7 @@
     "glob" "^7.0.6"
     "jasmine-core" "~2.8.0"
 
-"jasminewd2@^2.1.0":
+"jasminewd2@^2.1.0", "jasminewd2@^2.2.0":
   "integrity" "sha1-43zwsX8ZnM4jvqcbIDk5Uka07E4="
   "resolved" "https://registry.npmjs.org/jasminewd2/-/jasminewd2-2.2.0.tgz"
   "version" "2.2.0"
@@ -8896,14 +8893,6 @@
     "is-extendable" "^0.1.1"
     "is-plain-object" "^2.0.3"
     "split-string" "^3.0.1"
-
-"set-value@^4.1.0":
-  "integrity" "sha512-zTEg4HL0RwVrqcWs3ztF+x1vkxfm0lP+MQQFPiMJTKVceBwEV0A569Ou8l9IYQG8jOZdMVI1hGsc0tmeD2o/Lw=="
-  "resolved" "https://registry.npmjs.org/set-value/-/set-value-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "is-plain-object" "^2.0.4"
-    "is-primitive" "^3.0.1"
 
 "setprototypeof@1.1.0":
   "integrity" "sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ=="
