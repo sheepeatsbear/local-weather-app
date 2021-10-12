@@ -6,8 +6,10 @@
     <span>{{current.date | date:'fullDate'}}</span>
   </div>
   <div>
-    <img [src]='current.image' width="50px">
-    <span>{{current.temperature | number:'1.0-0'}}F</span>
+    <img [src]='current.image' width="100px">
+  </div>
+  <div>
+    <span>{{current.temperature | number:'1.0-0'}} c</span>
   </div>
   <div>{{current.description}}</div>
 </div>
