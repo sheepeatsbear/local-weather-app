@@ -27,7 +27,9 @@
     "predocker:publish": "echo Attention! Ensure `docker login` information is correct.",
     "docker:publish": "cross-conf-env docker image push $npm_package_config_imageRepo:$npm_package_version",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "prenow:publish": "npm run build:prod",
+    "vercel:publish": "vercel --platform-version 2 dist/local-weather-app"
   },
   "private": true,
   "dependencies": {
