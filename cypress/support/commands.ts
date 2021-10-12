@@ -37,7 +37,7 @@
 //
 // -- This is a dual command --
 // Cypress.Commands.add("dismiss", { prevSubject: 'optional'},
-//(subject, options) => { ... })
+// (subject, options) => { ... })
 //
 //
 // -- This will overwrite an existing command --
