@@ -10,6 +10,8 @@
     "build:prod": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:debug": "npm test -- --source-map",
+    "test:coverage": "npm test -- --code-coverage",
     "e2e": "ng e2e",
     "lint": "tslint --config tslint.json --project . -e \"**/{test,polyfills}.ts\"",
     "lint:fix": "tslint --config tslint.json --fix --project . -e \"**/{test,polyfills}.ts\"",
