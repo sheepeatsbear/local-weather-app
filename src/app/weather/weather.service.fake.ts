@@ -4,8 +4,8 @@ import { ICurrentWeather } from '../interfaces';
 import { IWeatherService } from './weather.service';
 
 export const fakeWeather: ICurrentWeather = {
-  city: 'Bethesda',
-  country: 'US',
+  city: 'Paris',
+  country: 'FR',
   date: 1485789600,
   image: '',
   temperature: 280.32,

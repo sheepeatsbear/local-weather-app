@@ -51,18 +51,18 @@ describe('CurrentWeatherComponent', () => {
     expect(weatherServiceMock.getCurrentWeather).toHaveBeenCalledTimes(1);
   });
 
-  it('should eagerly load currentWeather in Bethesda from weatherService', () => {
+  it('should eagerly load currentWeather in Paris from weatherService', () => {
     // Arrange
     weatherServiceMock.getCurrentWeather.and.returnValue(of(fakeWeather));
     // Act
     fixture.detectChanges(); // triggers ngOnInit()
     // Assert
     expect(component.current).toBeDefined();
-    expect(component.current.city).toEqual('Bethesda');
+    expect(component.current.city).toEqual('Paris');
     expect(component.current.temperature).toEqual(280.32);
     // Assert on DOM
     const debugEl = fixture.debugElement;
-    const titleEl: HTMLElement = debugEl.query(By.css('span')).nativeElement;
-    expect(titleEl.textContent).toContain('Bethesda');
+    const titleEl: HTMLElement = debugEl.query(By.css('.mat-title')).nativeElement;
+    expect(titleEl.textContent).toContain('Paris');
   });
 });
