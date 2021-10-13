@@ -9,14 +9,16 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CurrentWeatherComponent } from './current-weather/current-weather.component';
 import { MaterialModule } from './material.module';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { CitySearchComponent } from './city-search/city-search.component';
 
 @NgModule({
-  declarations: [AppComponent, CurrentWeatherComponent, SideNavComponent],
+  declarations: [AppComponent, CurrentWeatherComponent, SideNavComponent, CitySearchComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -29,6 +31,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
