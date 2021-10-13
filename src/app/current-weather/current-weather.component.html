@@ -10,7 +10,8 @@
     </div>
   </div>
   <div fxLayout='row'>
-    <div fxFlex='66%' style="zoom: 175%;"><img [src]='current.image' width="60px"></div>
+    <div fxFlex='66%' style="zoom: 175%;"><img [src]='current.image'
+        [alt]='current.description' width="60px"></div>
     <div class='mat-display-3 no-margin right' fxFlex>
       {{current.temperature | number:'1.0-0'}}
       <span class='mat-display-1 unit'>˚C</span>

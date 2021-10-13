@@ -1,0 +1,15 @@
+.pa11yci
+{
+  "default": {
+    "timeout": 1000,
+    "page": {
+      "viewport": {
+        "width": 320,
+        "height": 480
+      }
+    }
+  },
+  "urls": [
+    "https://local-weather-app-material.vercel.app/"
+  ]
+}
