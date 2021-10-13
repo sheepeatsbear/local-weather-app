@@ -12,7 +12,7 @@
     "test": "ng test",
     "test:debug": "npm test -- --source-map",
     "test:coverage": "npm test -- --code-coverage",
-    "test:a11y": "pa11y --standard WCAG2A http://localhost:4200",
+    "test:a11y": "pa11y-ci",
     "e2e": "ng e2e",
     "lint": "tslint --config tslint.json --project . -e \"**/{test,polyfills}.ts\"",
     "lint:fix": "tslint --config tslint.json --fix --project . -e \"**/{test,polyfills}.ts\"",
